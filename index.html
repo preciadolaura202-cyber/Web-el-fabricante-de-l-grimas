@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="El fabricante de lágrimas: la historia, personajes, ambientación y el oscuro romance de Erin Doom.">
+  <link rel="icon" type="image/png" href="img/icon.png">
+  <title>El fabricante de lágrimas · Erin Doom</title>
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Archivo:wght@500;700&display=swap" rel="stylesheet">
+
+  <link href="css/responsive.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<!-- ============ NAVEGACIÓN ============ -->
+<header class="site-header" id="inicio">
+  <nav class="nav container" aria-label="Navegación principal">
+    <a class="nav-brand" href="#inicio">Lágrimas<span class="nav-dot">.</span></a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#biografia">La Autora</a></li>
+      <li><a href="#linea-tiempo">Cronología</a></li>
+      <li><a href="#obras">Personajes</a></li>
+      <li><a href="#destellos">Destellos en la Oscuridad</a></li>
+      <li><a href="#video">Booktrailer</a></li>
+      <li><a href="#juego">Juego</a></li>
+      <li><a href="#centro-gabo">El Orfanato</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- ============ HERO con atmósfera oscura / mariposas o cenizas ============ -->
+<section class="hero">
+  <canvas id="butterflies" aria-hidden="true"></canvas>
+
+  <div class="hero-content container">
+    <p class="eyebrow reveal">Wattpad — Editorial Salani, 2021</p>
+    <h1 class="hero-title reveal">El fabricante de <em>lágrimas</em></h1>
+    <p class="hero-sub reveal">
+      Erin Doom: el fenómeno literario del dark romance y la fantasía juvenil.
+      Una historia donde el miedo y el amor convergen bajo la leyenda del artesano de cristal.
+    </p>
+    <div class="hero-actions reveal">
+      <a class="btn btn-primary" href="#biografia">Conocer la historia</a>
+      <a class="btn btn-ghost" href="#obras">Ver personajes</a>
+    </div>
+  </div>
+
+  <div class="hero-stats container">
+    <div class="stat reveal"><span class="stat-num" data-count="2021">0</span><span class="stat-label">Año de publicación</span></div>
+    <div class="stat reveal"><span class="stat-num" data-count="30">0</span><span class="stat-label">millones de lecturas online</span></div>
+    <div class="stat reveal"><span class="stat-num" data-count="2">0</span><span class="stat-label">protagonistas marcados por el destino</span></div>
+  </div>
+</section>
+
+<main>
+
+  <!-- ============ BIOGRAFÍA / HISTORIA ============ -->
+  <section class="section" id="biografia">
+    <div class="container grid grid-2">
+
+      <article class="bio-text reveal">
+        <p class="eyebrow">La Novela</p>
+        <h2>Miedo, sombras y cristal</h2>
+        <p>
+          En el corazón de los Apalaches se encuentra el Grave, un orfanato envuelto en leyendas
+          y rumores oscuros donde Nica y Rigel crecieron compartiendo un pasado de silencios y
+          sufrimiento. Entre las paredes de piedra de aquel lugar, el mito del Fabricante de Lágrimas
+          cobraba vida: un misterioso artesano culpable de todos los miedos y lágrimas que habitan en el mundo.
+        </p>
+        <p>
+          Años más tarde, cuando ambos son adoptados por la misma familia, la oportunidad de empezar
+          de cero parece real. Sin embargo, Nica descubre que Rigel no es el ángel que aparenta, sino
+          una presencia oscura, magnética y desafiante que parece conocer cada uno de sus secretos.
+        </p>
+        <p>
+          Escrita inicialmente bajo seudónimo en la plataforma Wattpad por la enigmática autora italiana
+          <strong>Erin Doom</strong>, la novela se convirtió en un fenómeno global de ventas y emociones,
+          llevando el género del <em>dark romance</em> juvenil a las librerías de todo el mundo y a la gran pantalla.
+        </p>
+        <p>
+          Una historia sobre cicatrices invisibles, donde la luz solo puede nacer tras aceptar
+          la oscuridad que habita en el interior de cada uno.
+        </p>
+      </article>
+
+      <figure class="bio-figure reveal">
+        <div class="bio-frame">
+          <img src="img/portada.jfif" alt="Portada de El fabricante de lágrimas de Erin Doom"
+            onerror="this.closest('.bio-frame').classList.add('no-photo'); this.remove();">
+          <div class="bio-fallback" aria-hidden="true">
+            <span class="bio-initials">EFL</span>
+          </div>
+        </div>
+        <figcaption>Portada oficial de El fabricante de lágrimas.</figcaption>
+      </figure>
+
+    </div>
+  </section>
+
+  <!-- ============ LÍNEA DE TIEMPO / CRONOLOGÍA ============ -->
+  <section class="section section-alt timeline-section" id="linea-tiempo">
+
+      <div class="container">
+
+          <div class="timeline-header reveal">
+              <p class="eyebrow">Cronología</p>
+              <h2>Los hitos de la historia</h2>
+              <p class="timeline-intro">
+                  Una historia marcada por secretos, heridas y encuentros
+                  que cambiaron para siempre sus vidas.
+              </p>
+          </div>
+
+          <div class="timeline-modern">
+
+              <!-- HITO 01 -->
+              <article class="timeline-card reveal">
+                  <div class="timeline-marker">
+                      <span>01</span>
+                  </div>
+
+                  <div class="timeline-card-inner">
+                      <span class="timeline-tag">El Orfanato</span>
+                      <h3>La infancia en el orfanato</h3>
+                      <p>
+                          Años de aislamiento, frío y la constante compañía
+                          de la leyenda del Fabricante de Lágrimas.
+                      </p>
+                  </div>
+              </article>
+
+              <!-- HITO 02 -->
+              <article class="timeline-card reveal">
+                  <div class="timeline-marker">
+                      <span>02</span>
+                  </div>
+
+                  <div class="timeline-card-inner">
+                      <span class="timeline-tag">La Adopción</span>
+                      <h3>Una nueva familia</h3>
+                      <p>
+                          Los Milligan deciden adoptar a Nica, pero el destino
+                          también arrastra a Rigel a este nuevo comienzo.
+                      </p>
+                  </div>
+              </article>
+
+              <!-- HITO 03 -->
+              <article class="timeline-card reveal">
+                  <div class="timeline-marker">
+                      <span>03</span>
+                  </div>
+
+                  <div class="timeline-card-inner">
+                      <span class="timeline-tag">El Reencuentro</span>
+                      <h3>Bajo el mismo techo</h3>
+                      <p>
+                          Nica y Rigel deben aprender a convivir mientras
+                          intentan adaptarse a una vida completamente nueva.
+                      </p>
+                  </div>
+              </article>
+
+              <!-- HITO 04 -->
+              <article class="timeline-card reveal">
+                  <div class="timeline-marker">
+                      <span>04</span>
+                  </div>
+
+                  <div class="timeline-card-inner">
+                      <span class="timeline-tag">El Instituto</span>
+                      <h3>Secretos revelados</h3>
+                      <p>
+                          La nueva vida escolar pone a prueba su relación
+                          y deja al descubierto conflictos que permanecían ocultos.
+                      </p>
+                  </div>
+              </article>
+
+              <!-- HITO 05 -->
+              <article class="timeline-card reveal">
+                  <div class="timeline-marker">
+                      <span>05</span>
+                  </div>
+
+                  <div class="timeline-card-inner">
+                      <span class="timeline-tag">La Revelación</span>
+                      <h3>Más allá de las máscaras</h3>
+                      <p>
+                          Nica comienza a descubrir verdades sobre el pasado,
+                          las cicatrices y los secretos de Rigel.
+                      </p>
+                  </div>
+              </article>
+
+              <!-- HITO 06 -->
+              <article class="timeline-card reveal">
+                  <div class="timeline-marker">
+                      <span>06</span>
+                  </div>
+
+                  <div class="timeline-card-inner">
+                      <span class="timeline-tag">El Éxito</span>
+                      <h3>Fenómeno Wattpad</h3>
+                      <p>
+                          La historia de Erin Doom alcanza una enorme popularidad
+                          entre lectores y se convierte en un fenómeno editorial.
+                      </p>
+                  </div>
+              </article>
+
+              <!-- HITO 07 -->
+              <article class="timeline-card reveal">
+                  <div class="timeline-marker">
+                      <span>07</span>
+                  </div>
+
+                  <div class="timeline-card-inner">
+                      <span class="timeline-tag">Adaptación</span>
+                      <h3>El salto al cine</h3>
+                      <p>
+                          La historia llega a la pantalla y lleva su estética
+                          oscura y misteriosa a una nueva audiencia.
+                      </p>
+                  </div>
+              </article>
+
+          </div>
+
+      </div>
+  </section>
+
+  <!-- ============ PERSONAJES / OBRAS (CARRUSEL 3D) ============ -->
+  <section class="section" id="obras">
+    <div class="container">
+      <p class="eyebrow reveal">Personajes principales</p>
+      <h2 class="reveal">Protagonistas y universo</h2>
+      <p class="section-intro reveal">Los rostros y almas que dan vida a esta historia de romance oscuro y redención.</p>
+
+      <!-- Contenedor del Carrusel 3D -->
+      <div class="carousel">
+        
+        <!-- Botón Anterior -->
+        <button class="carousel__button carousel__button--prev" type="button" aria-label="Anterior">&#10094;</button>
+
+        <!-- Pista de Tarjetas -->
+        <div class="grid cards-grid">
+
+          <article class="product reveal">
+            <div class="card-img-wrapper">
+              <img src="img/a1.jfif" alt="Nica Doane">
+            </div>
+            <div class="card-content">
+              <span class="card-year">Protagonista</span>
+              <h3>Nica Doane</h3>
+              <p>Dulce, empática y con una fascinación por las cosas pequeñas. Busca desesperadamente un hogar que la proteja.</p>
+              <a class="card-link" href="https://es.wikipedia.org/wiki/Erin_Doom" target="_blank" rel="noopener">Saber más →</a>
+            </div>
+          </article>
+
+          <article class="product reveal">
+            <div class="card-img-wrapper">
+              <img src="img/a2.avif" alt="Rigel Wilde">
+            </div>
+            <div class="card-content">
+              <span class="card-year">Protagonista</span>
+              <h3>Rigel Wilde</h3>
+              <p>Rebelde, enigmático y con ojos de color inusual. Oculta un profundo dolor tras una coraza de hostilidad.</p>
+              <a class="card-link" href="https://es.wikipedia.org/wiki/Erin_Doom" target="_blank" rel="noopener">Saber más →</a>
+            </div>
+          </article>
+
+          <article class="product reveal">
+            <div class="card-img-wrapper">
+              <img src="img/ft2.avif" alt="El Fabricante de Lágrimas">
+            </div>
+            <div class="card-content">
+              <span class="card-year">La Leyenda</span>
+              <h3>El Fabricante de Lágrimas</h3>
+              <p>Un personaje mitológico de los cuentos de terror del Grave que construye las emociones humanas con cristal.</p>
+              <a class="card-link" href="https://es.wikipedia.org/wiki/Erin_Doom" target="_blank" rel="noopener">Saber más →</a>
+            </div>
+          </article>
+
+          <article class="product reveal">
+            <div class="card-img-wrapper">
+              <img src="img/a3.jfif" alt="Los Milligan">
+            </div>
+            <div class="card-content">
+              <span class="card-year">Familia</span>
+              <h3>Los Milligan</h3>
+              <p>La cálida pareja que decide abrir las puertas de su hogar, intentando sanar las heridas del pasado.</p>
+              <a class="card-link" href="https://es.wikipedia.org/wiki/Erin_Doom" target="_blank" rel="noopener">Saber más →</a>
+            </div>
+          </article>
+
+          <article class="product reveal">
+            <div class="card-img-wrapper">
+              <img src="img/a4.avif" alt="El Grave (Orfanato)">
+            </div>
+            <div class="card-content">
+              <span class="card-year">Entorno</span>
+              <h3>El Grave (Orfanato)</h3>
+              <p>El sombrío escenario donde crecieron los niños, marcado por mitos urbanos y estrictas reglas.</p>
+              <a class="card-link" href="https://es.wikipedia.org/wiki/Erin_Doom" target="_blank" rel="noopener">Saber más →</a>
+            </div>
+          </article>
+
+          <article class="product reveal">
+            <div class="card-img-wrapper">
+              <img src="img/a5.jfif" alt="Erin Doom">
+            </div>
+            <div class="card-content">
+              <span class="card-year">La Autora</span>
+              <h3>Erin Doom</h3>
+              <p>El seudónimo de la escritora italiana que revolucionó la literatura juvenil contemporánea.</p>
+              <a class="card-link" href="https://es.wikipedia.org/wiki/Erin_Doom" target="_blank" rel="noopener">Saber más →</a>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Botón Siguiente -->
+        <button class="carousel__button carousel__button--next" type="button" aria-label="Siguiente">&#10095;</button>
+
+        <!-- Indicadores de puntos -->
+        <div class="carousel__dots"></div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DESTELLOS EN LA OSCURIDAD (CARRUSEL 3D) ============ -->
+  <section class="section carousel-over-quote" id="destellos" style="position: relative; overflow: hidden;">
+    
+    <!-- Canvas independiente para las mariposas de esta sección -->
+    <canvas id="butterflies2" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1;"></canvas>
+
+    <div class="container" style="text-align: center; position: relative; z-index: 2;">
+      <span class="eyebrow">Destellos en la Oscuridad</span>
+      <h2>Fragmentos de una Melancolía</h2>
+      <p class="section-intro" style="margin-inline: auto; margin-bottom: 2rem;">
+        Las imágenes y las palabras se entrelazan en el mundo de Rigel y Nica.
+      </p>
+
+      <!-- Escena del Carrusel Giratorio 3D con brillo -->
+      <div class="scene">
+        <div class="carousel-ring" id="carouselRing">
+          <div class="carousel-cell"><img src="img/ft1.webp" alt="El Fabricante de Lágrimas 1"></div>
+          <div class="carousel-cell"><img src="img/ft2.avif" alt="El Fabricante de Lágrimas 2"></div>
+          <div class="carousel-cell"><img src="img/ft3.jfif" alt="El Fabricante de Lágrimas 3"></div>
+          <div class="carousel-cell"><img src="img/ft4.jfif" alt="El Fabricante de Lágrimas 4"></div>
+          <div class="carousel-cell"><img src="img/ft5.jfif" alt="El Fabricante de Lágrimas 5"></div>
+          <div class="carousel-cell"><img src="img/ft6.jfif" alt="El Fabricante de Lágrimas 6"></div>
+        </div>
+      </div>
+
+      <!-- La frase célebre -->
+      <div class="big-quote" style="margin-top: 3.5rem;">
+        <p>«Él era el fabricante de lágrimas, y yo estaba destinada a caer en sus manos»</p>
+        <cite>— Erin Doom, <em>El fabricante de lágrimas</em></cite>
+      </div>
+    </div>
+  </section>                                                                           
+
+  <!-- ============ VIDEO ============ -->
+  <section class="section section-alt" id="video">
+    <div class="container grid grid-2">
+      <div class="video-text reveal">
+        <p class="eyebrow">Adaptación Cinematográfica</p>
+        <h2>El universo de Netflix</h2>
+        <p>
+          La adaptación cinematográfica dirigida por Alessandro Genovesi traslada a la pantalla
+          la atmósfera gótica, los paisajes fríos y la intensa química entre Nica y Rigel.
+          La música y la estética visual refuerzan el contraste entre la inocencia y la oscuridad
+          que caracteriza la novela original.
+        </p>
+        <p>
+          Una oportunidad imperdible para revivir las escenas más icónicas del libro con una
+          producción visual impactante y emotiva.
+        </p>
+      </div>
+
+      <div class="video-wrap reveal">
+        <iframe
+          src="https://www.youtube.com/embed/CbcwXGGrc-A"
+          title="Tráiler de El fabricante de lágrimas"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ JUEGO: TRIVIA DE LA OSCURIDAD ============ -->
+  <section class="section" id="juego">
+    <div class="container trivia-wrapper">
+      <p class="eyebrow reveal">Juega y demuestra</p>
+      <h2 class="reveal">Trivia del Fabricante de Lágrimas</h2>
+      <p class="section-intro reveal">
+        Pon a prueba tus conocimientos sobre la novela y descubre qué tan profundo conoces los secretos de Nica y Rigel.
+      </p>
+
+      <!-- Contenedor principal del Quiz -->
+      <div class="trivia-container reveal" id="triviaContainer">
+        
+        <!-- HUD de Progreso -->
+        <div class="trivia-hud">
+          <span id="triviaProgress">Pregunta 1 de 5</span>
+          <span id="triviaScore">Puntuación: 0</span>
+        </div>
+
+        <!-- Pregunta y Opciones -->
+        <div id="triviaQuestionBox">
+          <h3 id="triviaQuestionText">Cargando pregunta...</h3>
+          <div class="trivia-options" id="triviaOptions">
+            <!-- Las opciones se inyectarán por JavaScript -->
+          </div>
+        </div>
+
+        <!-- Botón Siguiente -->
+        <div class="trivia-actions">
+          <button class="btn btn-primary" id="triviaNextBtn" style="display: none;">Siguiente pregunta</button>
+        </div>
+      </div>
+
+      <!-- Pantalla de victoria / resultados -->
+      <div class="game-win" id="triviaWin" hidden>
+        <div class="game-win-card">
+          <div class="win-butterflies" aria-hidden="true">
+            <span>✨</span><span>🖤</span><span>✨</span><span>🖤</span><span>✨</span>
+          </div>
+          <h3>¡Has completado el desafío!</h3>
+          <p id="triviaWinText">Obtuviste X de 5 respuestas correctas.</p>
+          <button class="btn btn-primary" id="triviaRestart">Jugar de nuevo</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CENTRO / EL ORFANATO ============ -->
+  <section class="section section-alt" id="centro-gabo">
+    <div class="container">
+      <p class="eyebrow reveal">El misterio detrás del mito</p>
+      <h2 class="reveal">El Legado del Grave</h2>
+      <p class="section-intro reveal">
+        Explora más sobre el fenómeno editorial de Erin Doom, sus ediciones especiales con ilustraciones
+        y la comunidad global de lectores apasionados por las historias de dark romance.
+      </p>
+
+      <div class="grid grid-2 centro-grid">
+        <article class="centro-card reveal">
+          <h3>La pluma oculta</h3>
+          <p>
+            El fenómeno de Erin Doom demostró cómo las historias publicadas originalmente de forma digital
+            pueden trascender barreras, llegando a cautivar a millones de jóvenes en todo el mundo
+            gracias a una prosa emocional y personajes profundamente humanos.
+          </p>
+          <ul class="centro-links">
+            <li><a href="https://es.wikipedia.org/wiki/Erin_Doom" target="_blank" rel="noopener">Biografía de la autora</a></li>
+            <li><a href="https://www.wattpad.com/" target="_blank" rel="noopener">Orígenes en Wattpad</a></li>
+          </ul>
+        </article>
+
+        <article class="centro-card reveal">
+          <h3>Otras obras de Erin Doom</h3>
+          <p>
+            Además de <em>El fabricante de lágrimas</em>, la autora ha expandido su universo literario con
+            nuevas novelas de gran éxito:
+          </p>
+          <ul class="centro-links">
+            <li><strong>Nel modo in cui il mondo cade</strong> — Explorando los límites de los vínculos afectivos.</li>
+            <li><strong>Stigma</strong> — Una historia cargada de secretos y tensión emocional.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ NOTICIAS ============ -->
+  <section class="section" id="noticias">
+    <div class="container">
+      <p class="eyebrow reveal">Actualidad</p>
+      <h2 class="reveal">Noticias literarias</h2>
+
+      <div class="grid news-grid">
+        <article class="news-item reveal">
+          <time datetime="2026-03-01">Edición Especial</time>
+          <h3>Nuevas portadas</h3>
+          <p>Lanzamiento de colecciones conmemorativas con detalles metalizados y marcapáginas coleccionables.</p>
+        </article>
+        <article class="news-item reveal">
+          <time datetime="2025-06-15">Cine y Streaming</time>
+          <h3>Fenómeno en Netflix</h3>
+          <p>La película se posiciona entre las más vistas a nivel internacional tras su estreno global.</p>
+        </article>
+        <article class="news-item reveal">
+          <time datetime="2024-10-10">Comunidad</time>
+          <h3>El club de lectura</h3>
+          <p>Encuentros virtuales de lectores para debatir sobre los giros de trama y la psicología de Rigel y Nica.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p class="footer-brand">Lágrimas<span class="nav-dot">.</span></p>
+      <p>Un homenaje a la novela de Erin Doom.</p>
+    </div>
+    <nav aria-label="Enlaces del pie">
+      <ul class="footer-links">
+        <li><a href="#biografia">La Autora</a></li>
+        <li><a href="#obras">Personajes</a></li>
+        <li><a href="#video">Booktrailer</a></li>
+      </ul>
+    </nav>
+    <p class="footer-credit">AdSo resizing · Sitio adaptado con HTML semántico, CSS Grid y JS.</p>
+  </div>
+</footer>
+
+<a href="#" id="toTop" class="to-top" aria-label="Volver arriba">↑</a>
+
+<!-- ============ CHATBOT "PREGÚNTALE AL FABRICANTE" ============ -->
+<button class="chat-fab" id="chatFab" aria-label="Abrir chat sobre el libro" aria-expanded="false">
+  <span class="chat-fab-icon">🖤</span>
+</button>
+
+<div class="chat-window" id="chatWindow" hidden>
+  <div class="chat-header">
+    <div>
+      <p class="chat-title">Pregúntale al Libro</p>
+      <p class="chat-sub">Bot sobre Nica, Rigel y Erin Doom</p>
+    </div>
+    <button class="chat-close" id="chatClose" aria-label="Cerrar chat">×</button>
+  </div>
+
+  <div class="chat-messages" id="chatMessages" aria-live="polite"></div>
+
+  <div class="chat-chips" id="chatChips"></div>
+
+  <form class="chat-input-row" id="chatForm" autocomplete="off">
+    <input type="text" id="chatInput" placeholder="Escribe tu pregunta sobre la historia…" aria-label="Escribe tu pregunta">
+    <button type="submit" class="chat-send" aria-label="Enviar">➤</button>
+  </form>
+</div>
+
+<script src="js/main.js"></script>
+<script src="js/chatbot.js"></script>
+<script src="js/accesibilidad.js"></script>
+<script src="js/game.js"></script>
+</body>
+</html>
